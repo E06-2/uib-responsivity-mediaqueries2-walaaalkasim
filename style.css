@@ -116,4 +116,12 @@ ol {
       background-color: cadetblue;
   }
 }
+/*print mode*/
+@media print{
+  main h1, main p, main ol li{
+  font-size : 2.5rem;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+}
